@@ -32,9 +32,13 @@ Import books from a CSV file upload
 | POST   | `/api/books/import` | Import books from CSV file | Multipart form-data with `file` key containing CSV |
 
 1st=clone the repository
+
 2nd=npm install
+
 3rd=npm run start
+
 4rth=remember to make a .env file inside add a preferred-PORT like below
+
 PORT=5000
-# or if you have nodemon for development
+
 npm run dev
